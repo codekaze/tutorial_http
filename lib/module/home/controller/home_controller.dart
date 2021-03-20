@@ -1,5 +1,5 @@
+import 'package:demo_app/core.dart';
 import 'package:get/get.dart';
-import 'package:demo_app/module/home/view/home_view.dart';
 
 class HomeController extends GetxController {
   HomeView view;

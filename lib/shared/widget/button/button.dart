@@ -1,4 +1,4 @@
-import 'package:demo_app/shared/theme/theme.dart';
+import 'package:demo_app/core.dart';
 import 'package:flutter/material.dart';
 
 class ExButton extends StatelessWidget {

@@ -1,5 +1,4 @@
-import 'package:demo_app/module/auth/login/view/login_view.dart';
-import 'package:demo_app/module/navigation/mobile_navigation/view/mobile_navigation_view.dart';
+import 'package:demo_app/core.dart';
 
 import 'package:get/get.dart';
 

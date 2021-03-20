@@ -1,5 +1,5 @@
+import 'package:demo_app/core.dart';
 import 'package:flutter/material.dart';
-import 'package:demo_app/module/home/controller/home_controller.dart';
 
 import 'package:get/get.dart';
 

@@ -1,6 +1,4 @@
-import 'package:demo_app/data/model/route_item.dart';
-import 'package:demo_app/module/auth/login/view/login_view.dart';
-import 'package:demo_app/module/home/view/home_view.dart';
+import 'package:demo_app/core.dart';
 //@EndOfImport
 
 class GeneratedRouter {

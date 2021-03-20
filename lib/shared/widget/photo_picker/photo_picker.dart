@@ -1,9 +1,7 @@
+import 'package:demo_app/core.dart';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:demo_app/shared/theme/theme.dart';
-import 'package:demo_app/shared/util/https/https.dart';
-import 'package:demo_app/shared/util/show_loading/show_loading.dart';
 import 'package:filepicker_windows/filepicker_windows.dart';
 import 'package:flutter/material.dart';
 

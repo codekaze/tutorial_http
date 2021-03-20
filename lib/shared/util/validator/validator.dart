@@ -1,4 +1,4 @@
-import 'package:demo_app/shared/util/input/input.dart';
+import 'package:demo_app/core.dart';
 import 'package:get/get.dart';
 
 class Validator {

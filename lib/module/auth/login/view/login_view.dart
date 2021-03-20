@@ -1,7 +1,4 @@
-import 'package:demo_app/module/auth/login/controller/login_controller.dart';
-import 'package:demo_app/shared/theme/theme.dart';
-import 'package:demo_app/shared/widget/button/button.dart';
-import 'package:demo_app/shared/widget/textfield/textfield.dart';
+import 'package:demo_app/core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
