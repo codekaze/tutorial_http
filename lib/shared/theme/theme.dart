@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+final defaultFontFamily = GoogleFonts.roboto();
+
 final ThemeData appThemeData = ThemeData(
   primaryColor: Colors.blueAccent,
   accentColor: Colors.blue,
   backgroundColor: Colors.red,
   scaffoldBackgroundColor: Colors.blue[50],
-  fontFamily: GoogleFonts.chango().fontFamily,
+  fontFamily: defaultFontFamily.fontFamily,
   textTheme: TextTheme(
     headline1: TextStyle(
       fontSize: 72.0,
