@@ -49,22 +49,13 @@ class _MainNavigationViewState extends State<MainNavigationView>
           body: getPage(),
           bottomNavigationBar: BottomNavigationBar(
               showUnselectedLabels: true,
-              backgroundColor: theme.appBarColor,
-              selectedItemColor: theme.mainColor,
-              unselectedItemColor: theme.inactiveColor,
-              selectedLabelStyle: TextStyle(
-                color: Colors.white,
-              ),
-              unselectedLabelStyle: TextStyle(
-                color: Colors.white,
-              ),
               currentIndex: _index,
+              type: BottomNavigationBarType.fixed,
               onTap: (int _index) {
                 setState(() {
                   this._index = _index;
                 });
               },
-              type: BottomNavigationBarType.fixed,
               items: <BottomNavigationBarItem>[
                 BottomNavigationBarItem(
                   icon: Icon(Icons.home),
