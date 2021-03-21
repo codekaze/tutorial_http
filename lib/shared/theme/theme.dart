@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 final ThemeData appThemeData = ThemeData(
   primaryColor: Colors.blueAccent,
   accentColor: Colors.blue,
   backgroundColor: Colors.red,
   scaffoldBackgroundColor: Colors.blue[50],
-  // fontFamily: 'Georgia',
+  fontFamily: GoogleFonts.chango().fontFamily,
   textTheme: TextTheme(
     headline1: TextStyle(
       fontSize: 72.0,

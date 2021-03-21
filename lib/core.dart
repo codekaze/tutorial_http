@@ -21,8 +21,6 @@ export 'package:demo_app/shared/widget/action_icon/action_icon.dart';
 export 'package:demo_app/shared/widget/alert/alert.dart';
 export 'package:demo_app/shared/widget/button/button.dart';
 export 'package:demo_app/shared/widget/combo/combo.dart';
-export 'package:demo_app/shared/widget/photo_picker/photo_picker.dart';
 export 'package:demo_app/shared/widget/textfield/textfield.dart';
 export 'package:demo_app/xgenerated/generated_router.dart';
-
 export 'package:get/get.dart';

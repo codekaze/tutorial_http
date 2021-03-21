@@ -17,7 +17,7 @@ class Https {
     Map<String, String> headers,
   }) async {
     var response = await http.get(
-      url,
+      Uri.parse(url),
       headers: headers ?? defaultHeader(),
     );
 
@@ -40,7 +40,7 @@ class Https {
     dynamic data,
   }) async {
     var response = await http.post(
-      url,
+      Uri.parse(url),
       body: json.encode(data),
       headers: defaultHeader(),
     );
