@@ -43,9 +43,6 @@ class _MainNavigationViewState extends State<MainNavigationView>
     return GetBuilder<MobileNavigationController>(
       builder: (_) {
         return Scaffold(
-          // appBar: AppBar(
-          //   title: Text("Codekaze App"),
-          // ),
           body: getPage(),
           bottomNavigationBar: BottomNavigationBar(
               showUnselectedLabels: true,
