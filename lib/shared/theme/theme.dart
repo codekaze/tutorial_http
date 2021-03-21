@@ -43,6 +43,10 @@ final ThemeData appThemeData = ThemeData(
       ),
     ),
   ),
+  bottomNavigationBarTheme: BottomNavigationBarThemeData(
+    backgroundColor: Colors.white,
+    selectedItemColor: theme.mainColor,
+  ),
 );
 
 class ApplicationTheme {
