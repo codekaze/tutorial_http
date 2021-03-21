@@ -4,10 +4,10 @@ import 'package:google_fonts/google_fonts.dart';
 final defaultFontFamily = GoogleFonts.roboto();
 
 final ThemeData appThemeData = ThemeData(
-  primaryColor: Colors.blueAccent,
-  accentColor: Colors.blue,
-  backgroundColor: Colors.red,
-  scaffoldBackgroundColor: Colors.blue[50],
+  primaryColor: Colors.white,
+  accentColor: Colors.white,
+  backgroundColor: Colors.white,
+  scaffoldBackgroundColor: Colors.white,
   fontFamily: defaultFontFamily.fontFamily,
   textTheme: TextTheme(
     headline1: TextStyle(
@@ -16,7 +16,8 @@ final ThemeData appThemeData = ThemeData(
     ),
   ),
   appBarTheme: AppBarTheme(
-    elevation: 0.1,
+    elevation: 2.0,
+    shadowColor: Colors.grey[50],
     color: Colors.white,
     iconTheme: IconThemeData(
       color: theme.textColor,
