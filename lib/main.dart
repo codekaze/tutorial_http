@@ -1,7 +1,7 @@
 import 'package:demo_app/core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'module/navigation/mobile_navigation/view/mobile_navigation_view.dart';
+import 'module/navigation/main_navigation/view/main_navigation_view.dart';
 
 void main() async {
   await MainSetup.setup();
