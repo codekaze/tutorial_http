@@ -165,13 +165,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.17.0"
-  localstorage:
-    dependency: "direct main"
-    description:
-      name: localstorage
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.0.0+1"
   matcher:
     dependency: transitive
     description:
@@ -241,14 +234,14 @@ packages:
       name: permission_handler
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.1.0+2"
+    version: "6.1.1"
   permission_handler_platform_interface:
     dependency: transitive
     description:
       name: permission_handler_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.2"
+    version: "3.1.1"
   petitparser:
     dependency: transitive
     description:
@@ -269,7 +262,7 @@ packages:
       name: plugin_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.3"
+    version: "2.0.0"
   process:
     dependency: transitive
     description:
@@ -368,4 +361,4 @@ packages:
     version: "3.1.0"
 sdks:
   dart: ">=2.12.0 <3.0.0"
-  flutter: ">=1.20.0"
+  flutter: ">=1.22.0"
