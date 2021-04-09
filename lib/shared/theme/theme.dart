@@ -130,6 +130,27 @@ class ApplicationTheme {
       ),
     ];
   }
+
+  //Padding
+  EdgeInsetsGeometry get normalPadding {
+    return EdgeInsets.all(10.0);
+  }
+
+  EdgeInsetsGeometry get mediumPadding {
+    return EdgeInsets.all(16.0);
+  }
+
+  EdgeInsetsGeometry get largePadding {
+    return EdgeInsets.all(20.0);
+  }
+
+  //Border
+  BoxBorder get defaultBorder {
+    return Border.all(
+      width: 1.0,
+      color: Colors.grey[300],
+    );
+  }
 }
 
 var theme = ApplicationTheme();
