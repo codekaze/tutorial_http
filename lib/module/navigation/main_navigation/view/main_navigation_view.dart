@@ -10,7 +10,7 @@ class MainNavigationView extends StatefulWidget {
 
 class _MainNavigationViewState extends State<MainNavigationView>
     with SingleTickerProviderStateMixin {
-  final controller = Get.put(MobileNavigationController());
+  final controller = Get.put(MainNavigationController());
   TabController tabController;
   int _index;
 
@@ -40,7 +40,7 @@ class _MainNavigationViewState extends State<MainNavigationView>
 
   @override
   Widget build(BuildContext context) {
-    return GetBuilder<MobileNavigationController>(
+    return GetBuilder<MainNavigationController>(
       builder: (_) {
         return Scaffold(
           body: getPage(),

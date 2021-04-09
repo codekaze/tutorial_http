@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class MobileNavigationController extends GetxController {
+class MainNavigationController extends GetxController {
   @override
   void onInit() {
     super.onInit();

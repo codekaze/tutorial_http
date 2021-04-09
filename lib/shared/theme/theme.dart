@@ -89,6 +89,47 @@ class ApplicationTheme {
   Color get disabled {
     return Colors.grey[300];
   }
+
+  //Radius
+  double smallCircularRadius = 8.0;
+  double mediumCircularRadius = 16.0;
+  double largeCircularRadius = 32.0;
+
+  BorderRadiusGeometry get smallRadius {
+    return BorderRadius.all(Radius.circular(smallCircularRadius));
+  }
+
+  BorderRadiusGeometry get mediumRadius {
+    return BorderRadius.all(Radius.circular(mediumCircularRadius));
+  }
+
+  BorderRadiusGeometry get largeRadius {
+    return BorderRadius.all(Radius.circular(largeCircularRadius));
+  }
+
+  //Height
+  double get smallHeight {
+    return 48;
+  }
+
+  double get mediumHeight {
+    return 52;
+  }
+
+  double get largeHeight {
+    return 56;
+  }
+
+  //Shadow
+  normalShadow(Color color) {
+    return [
+      BoxShadow(
+        color: color.withOpacity(0.4),
+        blurRadius: 6.0,
+        spreadRadius: 4,
+      ),
+    ];
+  }
 }
 
 var theme = ApplicationTheme();
