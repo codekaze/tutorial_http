@@ -3,6 +3,8 @@ export 'package:demo_app/data/model/route_item.dart';
 export 'package:demo_app/data/session/app_session.dart';
 export 'package:demo_app/main.dart';
 export 'package:demo_app/main_setup.dart';
+export 'package:demo_app/module/account/controller/account_controller.dart';
+export 'package:demo_app/module/account/view/account_view.dart';
 export 'package:demo_app/module/auth/login/controller/login_controller.dart';
 export 'package:demo_app/module/auth/login/view/login_view.dart';
 export 'package:demo_app/module/home/controller/home_controller.dart';
@@ -21,6 +23,9 @@ export 'package:demo_app/shared/widget/action_icon/action_icon.dart';
 export 'package:demo_app/shared/widget/alert/alert.dart';
 export 'package:demo_app/shared/widget/button/button.dart';
 export 'package:demo_app/shared/widget/combo/combo.dart';
+export 'package:demo_app/shared/widget/datepicker/datepicker.dart';
+export 'package:demo_app/shared/widget/radio/radio.dart';
 export 'package:demo_app/shared/widget/textfield/textfield.dart';
 export 'package:demo_app/xgenerated/generated_router.dart';
+
 export 'package:get/get.dart';

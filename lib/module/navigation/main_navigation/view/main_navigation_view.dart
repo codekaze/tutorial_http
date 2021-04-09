@@ -26,7 +26,7 @@ class _MainNavigationViewState extends State<MainNavigationView>
         return Container();
         break;
       case 3:
-        return Container();
+        return AccountView();
         break;
     }
   }

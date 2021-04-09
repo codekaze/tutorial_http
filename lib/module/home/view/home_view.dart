@@ -16,6 +16,12 @@ class HomeView extends StatelessWidget {
           appBar: AppBar(
             title: Text("Home"),
           ),
+          body: Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Column(
+              children: [],
+            ),
+          ),
         );
       },
     );

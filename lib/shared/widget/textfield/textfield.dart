@@ -54,7 +54,15 @@ class _ExTextFieldState extends State<ExTextField> {
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Text(widget.label),
+          Padding(
+            padding: EdgeInsets.only(
+              left: 4.0,
+              right: 4.0,
+              top: 4.0,
+              bottom: 4.0,
+            ),
+            child: Text(widget.label),
+          ),
           SizedBox(
             height: 4.0,
           ),

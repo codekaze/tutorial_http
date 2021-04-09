@@ -4,6 +4,7 @@ import 'package:demo_app/core.dart';
 class GeneratedRouter {
   static const String loginView = '/module/login';
   static const String homeView = '/module/home';
+  static const String accountView = '/module/account';
   //@EndOfRouterName
 
   static List<RouteItem> routers = [
@@ -18,6 +19,10 @@ class GeneratedRouter {
     RouteItem(
       routeName: homeView,
       layout: HomeView(),
+    ),
+    RouteItem(
+      routeName: accountView,
+      layout: AccountView(),
     ),
     //@EndOfRouterItem
   ];
