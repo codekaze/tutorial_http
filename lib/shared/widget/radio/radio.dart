@@ -34,6 +34,7 @@ class _ExRadioState extends State<ExRadio> {
     selectedValue = widget.value;
     if (widget.value == null) {
       selectedValue = widget.items[0]["value"];
+      Input.set(widget.id, selectedValue);
     }
   }
 
