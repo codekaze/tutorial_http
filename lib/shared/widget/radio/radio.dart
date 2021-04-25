@@ -66,7 +66,8 @@ class _ExRadioState extends State<ExRadio> {
                   onTap: () {
                     selectedValue = item["value"];
                     setState(() {});
-                    widget.onChanged(selectedValue);
+                    if (widget.onChanged != null)
+                      widget.onChanged(selectedValue);
                     Input.set(widget.id, selectedValue);
                   },
                   child: Container(
@@ -129,9 +130,10 @@ class _ExRadioState extends State<ExRadio> {
 
                   return InkWell(
                     onTap: () {
-                      selectedValue = item["value"];
+                      selectedValue = item["value"].toString();
                       setState(() {});
-                      widget.onChanged(selectedValue);
+                      if (widget.onChanged != null)
+                        widget.onChanged(selectedValue);
                       Input.set(widget.id, selectedValue);
                     },
                     child: Container(
