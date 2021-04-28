@@ -1,6 +1,7 @@
-import 'package:demo_app/core.dart';
+import 'package:olx/core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:olx/module/product/view/product_view.dart';
 import 'module/navigation/main_navigation/view/main_navigation_view.dart';
 
 void main() async {
@@ -16,5 +17,6 @@ void main() async {
 }
 
 Widget getHome() {
-  return MainNavigationView();
+  // return MainNavigationView();
+  return ProductView();
 }

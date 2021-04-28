@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.codekaze_app">
+    package="com.codekaze.olx">
    <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="codekaze_app"
+        android:label="olx"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

@@ -1,6 +1,6 @@
 {
-    "name": "codekaze_app",
-    "short_name": "codekaze_app",
+    "name": "olx",
+    "short_name": "olx",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

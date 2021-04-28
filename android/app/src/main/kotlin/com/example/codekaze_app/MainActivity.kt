@@ -1,4 +1,4 @@
-package com.example.codekaze_app
+package com.codekaze.olx
 
 import io.flutter.embedding.android.FlutterActivity
 

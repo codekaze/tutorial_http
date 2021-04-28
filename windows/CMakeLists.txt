@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(codekaze_app LANGUAGES CXX)
+project(olx LANGUAGES CXX)
 
-set(BINARY_NAME "codekaze_app")
+set(BINARY_NAME "olx")
 
 cmake_policy(SET CMP0063 NEW)
 
