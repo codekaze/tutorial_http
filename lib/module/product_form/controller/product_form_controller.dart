@@ -36,7 +36,7 @@ class ProductFormController extends GetxController {
       "memo": memo,
     });
 
-    var url = "http.codekaze.com/olx/public/product";
+    var url = "http://codekaze.com/olx/public/product";
     var response = await http.post(
       Uri.parse(url),
       headers: {
